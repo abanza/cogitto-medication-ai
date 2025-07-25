@@ -1,0 +1,91 @@
+# scripts/postgressql_setup.txt
+# PostgreSQL Setup Guide for Cogitto Production Database
+
+# Step 1: Install PostgreSQL (macOS with Homebrew)
+# echo "🗄️ Installing PostgreSQL..."
+# brew install postgresql@15
+# brew services start postgresql@15
+
+# Alternative installation methods:
+# Ubuntu/Debian: sudo apt-get install postgresql postgresql-contrib
+# Windows: Download from https://www.postgresql.org/download/windows/
+# Docker: docker run --name cogitto-postgres -e POSTGRES_PASSWORD=password -p 5432:5432 -d postgres:15
+
+# Step 2: Create Cogitto database and user
+echo "🏗️ Setting up Cogitto database..."
+
+# Connect to PostgreSQL as superuser
+psql postgres << 'EOF'
+-- Create database
+CREATE DATABASE cogitto_production;
+
+-- Create application user
+CREATE USER cogitto_app_user WITH PASSWORD 'C33eda8bdb';
+
+-- Grant privileges
+GRANT ALL PRIVILEGES ON DATABASE cogitto_production TO cogitto_app_user;
+
+-- Create analytics user (read-only)
+CREATE USER cogitto_analytics_user WITH PASSWORD 'C33eda8bdb';
+GRANT CONNECT ON DATABASE cogitto_production TO cogitto_analytics_user;
+
+-- Exit psql
+\q
+EOF
+
+# Step 3: Apply schema to database
+echo "📋 Applying database schema..."
+psql cogitto_production -f cogitto_schema.sql
+
+# Step 4: Verify installation
+echo "✅ Verifying database setup..."
+psql cogitto_production -c "
+SELECT table_name 
+FROM information_schema.tables 
+WHERE table_schema = 'public' 
+ORDER BY table_name;
+"
+
+echo "📊 Database tables created:"
+psql cogitto_production -c "
+SELECT 
+    schemaname,
+    tablename,
+    tableowner
+FROM pg_tables 
+WHERE schemaname = 'public'
+ORDER BY tablename;
+"
+
+# Step 5: Test connection with application user
+echo "🔌 Testing application user connection..."
+PGPASSWORD='C33eda8bdb' psql -h localhost -U cogitto_app_user -d cogitto_production -c "SELECT version();"
+
+echo "🎉 PostgreSQL setup complete!"
+echo ""
+echo "📝 Next steps:"
+echo "1. Update your .env file with database connection string"
+echo "2. Install Python database dependencies: pip install asyncpg sqlalchemy"
+echo "3. Create database models in your app"
+echo "4. Run database migrations"
+
+# Environment variables for your .env file
+cat << 'EOF'
+
+# Add these to your .env file:
+DATABASE_URL=postgresql://cogitto_app_user:C33eda8bdb@localhost:5432/cogitto_production
+ANALYTICS_DATABASE_URL=postgresql://cogitto_analytics_user:C33eda8bdb@localhost:5432/cogitto_production
+
+# Database configuration
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=cogitto_production
+DB_USER=cogitto_app_user
+DB_PASSWORD=your_secure_password_here
+
+# Connection pool settings
+DB_POOL_SIZE=10
+DB_MAX_OVERFLOW=20
+DB_POOL_TIMEOUT=30
+
+EOF

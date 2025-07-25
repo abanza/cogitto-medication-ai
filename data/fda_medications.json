@@ -1,0 +1,682 @@
+# data/fda_medications.json
+[
+  {
+    "generic_name": "acetaminophen",
+    "brand_names": [
+      "Pain Reliever Extra Strength"
+    ],
+    "dosage_form": "unknown",
+    "strength": "ACETAMINOPHEN strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "pain",
+      "arthritis"
+    ],
+    "warnings": [
+      "Warnings Liver warning: This product contains acetaminophen"
+    ],
+    "manufacturer": "Valu Merchandisers Company",
+    "ndc_numbers": [
+      "63941-519"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:46.394018",
+    "rxcui": "2047428",
+    "normalized_name": "{100 (acetaminophen 250 mg / aspirin 250 mg / caffeine 65 mg oral tablet [excedrin]) / 24 (acetaminophen 250 mg / aspirin 250 mg / diphenhydramine citrate 38 mg oral tablet [excedrin pm triple action]) } pack [excedrin pm triple action caplets and excedrin extra strength pain reliever]"
+  },
+  {
+    "generic_name": "ibuprofen",
+    "brand_names": [
+      "Ibuprofen Dye Free"
+    ],
+    "dosage_form": "unknown",
+    "strength": "IBUPROFEN strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "pain",
+      "arthritis"
+    ],
+    "warnings": [
+      "Warnings Allergy alert: Ibuprofen may cause a severe allergic reaction, especially in people allergic to aspirin"
+    ],
+    "manufacturer": "CVS Pharmacy",
+    "ndc_numbers": [
+      "59779-438"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:46.411729",
+    "rxcui": "1100070",
+    "normalized_name": "famotidine 26.6 mg / ibuprofen 800 mg oral tablet [duexis]"
+  },
+  {
+    "generic_name": "aspirin",
+    "brand_names": [
+      "Low Dose Aspirin Enteric Safety-Coated"
+    ],
+    "dosage_form": "unknown",
+    "strength": "ASPIRIN strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "pain"
+    ],
+    "warnings": [
+      "Warnings Reye's syndrome : Children and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use this product"
+    ],
+    "manufacturer": "P & L Development, LLC",
+    "ndc_numbers": [
+      "59726-867"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:46.380453",
+    "rxcui": "2047428",
+    "normalized_name": "{100 (acetaminophen 250 mg / aspirin 250 mg / caffeine 65 mg oral tablet [excedrin]) / 24 (acetaminophen 250 mg / aspirin 250 mg / diphenhydramine citrate 38 mg oral tablet [excedrin pm triple action]) } pack [excedrin pm triple action caplets and excedrin extra strength pain reliever]"
+  },
+  {
+    "generic_name": "lisinopril and hydrochlorothiazide tablets",
+    "brand_names": [
+      "Lisinopril and Hydrochlorothiazide"
+    ],
+    "dosage_form": "unknown",
+    "strength": "HYDROCHLOROTHIAZIDE strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "blood pressure",
+      "diabetes",
+      "heart"
+    ],
+    "warnings": [
+      "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue lisinopril and hydrochlorothiazide tablets as soon as possible"
+    ],
+    "manufacturer": "ST. MARY'S MEDICAL PARK PHARMACY",
+    "ndc_numbers": [
+      "60760-586"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:46.431951",
+    "rxcui": "197885",
+    "normalized_name": "hydrochlorothiazide 12.5 mg / lisinopril 10 mg oral tablet"
+  },
+  {
+    "generic_name": "sitagliptin and metformin hydrochloride",
+    "brand_names": [
+      "ZITUVIMET"
+    ],
+    "dosage_form": "unknown",
+    "strength": "METFORMIN HYDROCHLORIDE strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "diabetes"
+    ],
+    "warnings": [
+      "WARNING: LACTIC ACIDOSIS WARNING: LACTIC ACIDOSIS See full prescribing information for complete boxed warning",
+      "5 WARNINGS AND PRECAUTIONS Lactic Acidosis: See boxed warning",
+      "4 CONTRAINDICATIONS Severe renal impairment: (eGFR below 30 mL/min/1"
+    ],
+    "manufacturer": "Zydus Lifesciences Limited",
+    "ndc_numbers": [
+      "70771-1859",
+      "70771-1860"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:46.447003"
+  },
+  {
+    "generic_name": "atorvastatin calcium",
+    "brand_names": [
+      "Atorvastatin calcium"
+    ],
+    "dosage_form": "unknown",
+    "strength": "ATORVASTATIN CALCIUM TRIHYDRATE strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "diabetes",
+      "cholesterol",
+      "heart"
+    ],
+    "warnings": [
+      "4 CONTRAINDICATIONS Acute liver failure or decompensated cirrhosis [see Warnings and Precautions (5"
+    ],
+    "manufacturer": "Bryant Ranch Prepack",
+    "ndc_numbers": [
+      "71335-1336"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:46.443918"
+  },
+  {
+    "generic_name": "amlodipine besylate",
+    "brand_names": [
+      "Amlodipine Besylate"
+    ],
+    "dosage_form": "unknown",
+    "strength": "AMLODIPINE BESYLATE strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "blood pressure",
+      "diabetes",
+      "heart"
+    ],
+    "warnings": [
+      "5 WARNINGS AND PRECAUTIONS Symptomatic hypotension is possible, particularly in patients with severe aortic stenosis",
+      "4 CONTRAINDICATIONS Known sensitivity to amlodipine ( 4 ) Amlodipine besylate tablets are contraindicated in patients with known sensitivity to amlodipine"
+    ],
+    "manufacturer": "Lupin Pharmaceuticals, Inc.",
+    "ndc_numbers": [
+      "68180-233",
+      "68180-750",
+      "68180-751"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:46.422620"
+  },
+  {
+    "generic_name": "metoprolol tartrate",
+    "brand_names": [
+      "Metoprolol Tartrate"
+    ],
+    "dosage_form": "unknown",
+    "strength": "METOPROLOL TARTRATE strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "blood pressure",
+      "diabetes",
+      "heart"
+    ],
+    "warnings": [
+      "5 WARNINGS AND PRECAUTIONS Abrupt cessation may exacerbate myocardial ischemia"
+    ],
+    "manufacturer": "PD-Rx Pharmaceuticals, Inc.",
+    "ndc_numbers": [
+      "43063-927"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:46.421443",
+    "rxcui": "2712152",
+    "normalized_name": "metoprolol tartrate 10 mg/ml oral solution [lopressor]"
+  },
+  {
+    "generic_name": "omeprazole",
+    "brand_names": [
+      "Omeprazole"
+    ],
+    "dosage_form": "unknown",
+    "strength": "OMEPRAZOLE strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "heart"
+    ],
+    "warnings": [
+      "Warnings Allergy alert: do not use if you are allergic to omeprazole omeprazole may cause severe skin reactions"
+    ],
+    "manufacturer": "Chain Drug Marketing Association INC",
+    "ndc_numbers": [
+      "63868-471"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:46.389792",
+    "rxcui": "1291987",
+    "normalized_name": "{4 (amoxicillin 500 mg oral capsule) / 2 (clarithromycin 500 mg oral tablet) / 2 (omeprazole 20 mg delayed release oral capsule) } pack [omeclamox]"
+  },
+  {
+    "generic_name": "ezetimibe and simvastatin",
+    "brand_names": [
+      "Ezetimibe and Simvastatin"
+    ],
+    "dosage_form": "unknown",
+    "strength": "EZETIMIBE strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "diabetes",
+      "cholesterol",
+      "heart"
+    ],
+    "warnings": [
+      "Follow healthcare provider instructions"
+    ],
+    "manufacturer": "Actavis Pharma, Inc.",
+    "ndc_numbers": [
+      "45963-565",
+      "45963-566",
+      "45963-567"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:46.474610"
+  },
+  {
+    "generic_name": "losartan potassium",
+    "brand_names": [
+      "Losartan Potassium"
+    ],
+    "dosage_form": "unknown",
+    "strength": "LOSARTAN POTASSIUM strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "blood pressure",
+      "diabetes",
+      "heart"
+    ],
+    "warnings": [
+      "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue losartan potassium as soon as possible",
+      "5 WARNINGS AND PRECAUTIONS \u2022 Hypotension: Correct volume or salt depletion prior to administration of losartan potassium",
+      "4 CONTRAINDICATIONS Losartan potassium is contraindicated: \u2022 In patients who are hypersensitive to any component of this product"
+    ],
+    "manufacturer": "Cardinal Health 107, LLC",
+    "ndc_numbers": [
+      "55154-2089",
+      "55154-4783",
+      "55154-6643"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:47.141974",
+    "rxcui": "2709046",
+    "normalized_name": "losartan potassium 10 mg/ml oral suspension [arbli]"
+  },
+  {
+    "generic_name": "lisinopril and hydrochlorothiazide tablets",
+    "brand_names": [
+      "Lisinopril and Hydrochlorothiazide"
+    ],
+    "dosage_form": "unknown",
+    "strength": "HYDROCHLOROTHIAZIDE strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "blood pressure",
+      "diabetes",
+      "heart"
+    ],
+    "warnings": [
+      "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue lisinopril and hydrochlorothiazide tablets as soon as possible"
+    ],
+    "manufacturer": "ST. MARY'S MEDICAL PARK PHARMACY",
+    "ndc_numbers": [
+      "60760-586"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:47.144795",
+    "rxcui": "197885",
+    "normalized_name": "hydrochlorothiazide 12.5 mg / lisinopril 10 mg oral tablet"
+  },
+  {
+    "generic_name": "gabapentin",
+    "brand_names": [
+      "Gabapentin"
+    ],
+    "dosage_form": "unknown",
+    "strength": "GABAPENTIN strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "seizure"
+    ],
+    "warnings": [
+      "5 WARNINGS AND PRECAUTIONS Drug Reaction with Eosinophilia and Systemic Symptoms (Multiorgan hypersensitivity): Discontinue if alternative etiology is not be established (5",
+      "4 CONTRAINDICATIONS Gabapentin is contraindicated in patients who have demonstrated hypersensitivity to the drug or its ingredients"
+    ],
+    "manufacturer": "Bryant Ranch Prepack",
+    "ndc_numbers": [
+      "71335-1093"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:47.139822",
+    "rxcui": "2398512",
+    "normalized_name": "{9 (once-daily gabapentin 300 mg oral tablet [gralise]) / 24 (once-daily gabapentin 600 mg oral tablet [gralise]) } pack [gralise sample pack]"
+  },
+  {
+    "generic_name": "sertraline hydrochloride",
+    "brand_names": [
+      "Sertraline Hydrochloride"
+    ],
+    "dosage_form": "unknown",
+    "strength": "SERTRALINE HYDROCHLORIDE strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "pain",
+      "heart",
+      "anxiety"
+    ],
+    "warnings": [
+      "Follow healthcare provider instructions"
+    ],
+    "manufacturer": "Proficient Rx LP",
+    "ndc_numbers": [
+      "63187-859"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:47.286845"
+  },
+  {
+    "generic_name": "levothyroxine, liothyronine",
+    "brand_names": [
+      "NP Thyroid 120"
+    ],
+    "dosage_form": "unknown",
+    "strength": "LEVOTHYROXINE strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "cancer"
+    ],
+    "warnings": [
+      "Drugs with thyroid hormone activity, alone or together with other therapeutic agents, have been used for the treatment of obesity",
+      "WARNINGS Drugs with thyroid hormone activity, alone or together with other therapeutic agents, have been used for the treatment of obesity"
+    ],
+    "manufacturer": "Acella Pharmaceuticals, LLC",
+    "ndc_numbers": [
+      "42192-328"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:47.110250"
+  },
+  {
+    "generic_name": "amoxicillin",
+    "brand_names": [
+      "Amoxicillin"
+    ],
+    "dosage_form": "unknown",
+    "strength": "AMOXICILLIN strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "infection"
+    ],
+    "warnings": [
+      "5 WARNINGS AND PRECAUTIONS Anaphylactic reactions: Serious and occasionally fatal anaphylactic reactions have been reported in patients on penicillin therapy",
+      "4 CONTRAINDICATIONS Amoxicillin is contraindicated in patients who have experienced a serious hypersensitivity reaction (e"
+    ],
+    "manufacturer": "Northwind Pharmaceuticals, LLC",
+    "ndc_numbers": [
+      "51655-894"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:47.108645",
+    "rxcui": "1291987",
+    "normalized_name": "{4 (amoxicillin 500 mg oral capsule) / 2 (clarithromycin 500 mg oral tablet) / 2 (omeprazole 20 mg delayed release oral capsule) } pack [omeclamox]"
+  },
+  {
+    "generic_name": "prednisone",
+    "brand_names": [
+      "PredniSONE"
+    ],
+    "dosage_form": "unknown",
+    "strength": "PREDNISONE strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "inflammation",
+      "cancer",
+      "arthritis",
+      "asthma"
+    ],
+    "warnings": [
+      "WARNINGS In patients on corticosteroid therapy subjected to unusual stress, increased dosage of rapidly acting corticosteroids before, during, and after the stressful situation is indicated",
+      "CONTRAINDICATIONS Systemic fungal infections and known hypersensitivity to components"
+    ],
+    "manufacturer": "A-S Medication Solutions",
+    "ndc_numbers": [
+      "50090-6623"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:47.098880",
+    "rxcui": "763179",
+    "normalized_name": "{48 (prednisone 5 mg oral tablet) } pack"
+  },
+  {
+    "generic_name": "tramadol hydrochloride",
+    "brand_names": [
+      "TRAMADOL HYDROCHLORIDE"
+    ],
+    "dosage_form": "unknown",
+    "strength": "TRAMADOL HYDROCHLORIDE strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "pain"
+    ],
+    "warnings": [
+      "4 CONTRAINDICATIONS Tramadol hydrochloride extended-release tablets are contraindicated for: all children younger than 12 years of age [see Warnings and Precautions (5"
+    ],
+    "manufacturer": "Sun Pharmaceutical Industries, Inc.",
+    "ndc_numbers": [
+      "47335-859",
+      "47335-860",
+      "47335-861"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:47.143248",
+    "rxcui": "1148482",
+    "normalized_name": "24 hr tramadol hydrochloride 100 mg extended release oral capsule [conzip]"
+  },
+  {
+    "generic_name": "ciprofloxacin",
+    "brand_names": [
+      "ciprofloxacin"
+    ],
+    "dosage_form": "unknown",
+    "strength": "CIPROFLOXACIN HYDROCHLORIDE strength varies",
+    "route_of_administration": [
+      "OPHTHALMIC"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "infection"
+    ],
+    "warnings": [
+      "WARNINGS NOT FOR INJECTION INTO THE EYE",
+      "CONTRAINDICATIONS A history of hypersensitivity to ciprofloxacin or any other component of the medication is a contraindication to its use"
+    ],
+    "manufacturer": "A-S Medication Solutions",
+    "ndc_numbers": [
+      "50090-4220"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:47.114785",
+    "rxcui": "103943",
+    "normalized_name": "ciprofloxacin 3 mg/ml ophthalmic solution [ciloxan]"
+  },
+  {
+    "generic_name": "warfarin sodium",
+    "brand_names": [
+      "Warfarin Sodium"
+    ],
+    "dosage_form": "unknown",
+    "strength": "WARFARIN SODIUM strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "as prescribed by healthcare provider"
+    ],
+    "warnings": [
+      "WARNING: BLEEDING RISK Warfarin sodium can cause major or fatal bleeding [see Warnings and Precautions ( 5",
+      "5 WARNINGS AND PRECAUTIONS Tissue necrosis: Necrosis or gangrene of skin or other tissues can occur, with severe cases requiring debridement or amputation"
+    ],
+    "manufacturer": "Teva Pharmaceuticals USA, Inc.",
+    "ndc_numbers": [
+      "0093-1712",
+      "0093-1713",
+      "0093-1714"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:47.115708",
+    "rxcui": "855290",
+    "normalized_name": "warfarin sodium 1 mg oral tablet [coumadin]"
+  },
+  {
+    "generic_name": "furosemide",
+    "brand_names": [
+      "Furosemide"
+    ],
+    "dosage_form": "unknown",
+    "strength": "FUROSEMIDE strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "heart"
+    ],
+    "warnings": [
+      "WARNING Furosemide is a potent diuretic which, if given in excessive amounts, can lead to a profound diuresis with water and electrolyte depletion",
+      "CONTRAINDICATIONS Furosemide tablets are contraindicated in patients with anuria and in patients with a history of hypersensitivity to furosemide"
+    ],
+    "manufacturer": "Bryant Ranch Prepack",
+    "ndc_numbers": [
+      "63629-1120"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:47.913344",
+    "rxcui": "1112201",
+    "normalized_name": "furosemide 50 mg/ml injectable solution [disal]"
+  },
+  {
+    "generic_name": "pantoprazole sodium",
+    "brand_names": [
+      "Pantoprazole Sodium"
+    ],
+    "dosage_form": "unknown",
+    "strength": "PANTOPRAZOLE SODIUM strength varies",
+    "route_of_administration": [
+      "INTRAVENOUS"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "as prescribed by healthcare provider"
+    ],
+    "warnings": [
+      "5 WARNINGS AND PRECAUTIONS Gastric Malignancy : In adults, symptomatic response to therapy with pantoprazole sodium does not preclude the presence of gastric malignancy",
+      "4 CONTRAINDICATIONS Pantoprazole sodium is contraindicated in patients with known hypersensitivity reactions including anaphylaxis to the formulation or any substituted benzimidazole"
+    ],
+    "manufacturer": "Meitheal Pharmaceuticals Inc.",
+    "ndc_numbers": [
+      "71288-600"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:47.919783"
+  },
+  {
+    "generic_name": "escitalopram oral",
+    "brand_names": [
+      "Escitalopram Oral Solution"
+    ],
+    "dosage_form": "unknown",
+    "strength": "ESCITALOPRAM OXALATE strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "anxiety"
+    ],
+    "warnings": [
+      "WARNING: SUICIDAL THOUGHTS AND BEHAVIORS Antidepressants increased the risk of suicidal thoughts and behaviors in pediatric and young adult patients in short-term studies",
+      "5 WARNINGS AND PRECAUTIONS Serotonin Syndrome: Increased risk when co-administered with other serotonergic agents, but also when taken alone"
+    ],
+    "manufacturer": "Chartwell RX, LLC",
+    "ndc_numbers": [
+      "62135-729"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:48.034647"
+  },
+  {
+    "generic_name": "montelukast sodium",
+    "brand_names": [
+      "Montelukast Sodium"
+    ],
+    "dosage_form": "unknown",
+    "strength": "MONTELUKAST SODIUM strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "asthma"
+    ],
+    "warnings": [
+      "5",
+      "4"
+    ],
+    "manufacturer": "Proficient Rx LP",
+    "ndc_numbers": [
+      "63187-550"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:47.916382"
+  },
+  {
+    "generic_name": "bupropion hydrochloride",
+    "brand_names": [
+      "Bupropion Hydrochloride XL"
+    ],
+    "dosage_form": "unknown",
+    "strength": "BUPROPION HYDROCHLORIDE strength varies",
+    "route_of_administration": [
+      "ORAL"
+    ],
+    "prescription_required": true,
+    "indications": [
+      "as prescribed by healthcare provider"
+    ],
+    "warnings": [
+      "4 CONTRAINDICATIONS Bupropion hydrochloride extended-release tablets (XL) are contraindicated in patients with seizure disorder"
+    ],
+    "manufacturer": "REMEDYREPACK INC.",
+    "ndc_numbers": [
+      "70518-4014"
+    ],
+    "data_source": "FDA_DRUG_LABELS",
+    "last_updated": "2025-07-20T21:10:47.922871",
+    "rxcui": "1232591",
+    "normalized_name": "24 hr bupropion hydrochloride 450 mg extended release oral tablet [forfivo]"
+  }
+]
