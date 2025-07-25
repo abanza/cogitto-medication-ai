@@ -34,3 +34,6 @@ Thumbs.db
 data/processed/
 data/raw/
 *.pkl
+__pycache__/
+*.pyc
+.env
